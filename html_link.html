@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>HTML Basic Link</title>
+
+ 	<style>
+ 		a:link 
+ 		{
+ 			color: green;
+ 			background-color: yellow;
+ 			text-decoration: none;
+ 		}
+
+ 		<!-- hyperlink visited --
+ 		a:visited
+ 		{
+ 			color: blue;
+ 			background-color: transparent;	
+ 		}
+
+ 		<!-- hyperlink hover --
+ 		a:hover
+ 		{
+ 			color: greenyellow;
+ 			background-color: orange;
+ 			text-decoration: none;
+ 		}
+ 		a:active
+ 		{
+ 			color: green;
+ 			background-color: red;
+ 			text-decoration: none;
+ 		}
+
+
+
+
+
+
+
+
+
+ 	</style>
+
+
+
+ </head>
+ <body>
+
+
+ 	<!-- (opening arrow) a href ="url" (closing arrow) Link text @ TRansport (closing slash a then arrow kanan) --> 
+
+ 	<h2>INTERNAL LINK</h2>
+ 	<a href="html_image.html"> HTML IMAGE </a>
+
+ 	<h2>EXTERNAL LINK</h2>
+ 	<a href="https://www.uitm.edu.my/index.php/en/"> UITM MALAYSIA </a>
+
+ 	<h2>ATTRIBUTES</h2>
+
+ 	<!--_blank (new tab)-->
+ 	<a href="https://www.uitm.edu.my/index.php/en/" target="_blank"> ATTRIBUTES BLANK </a> <br>
+
+
+ 	<!--_self (same tab)-->
+ 	<a href="https://www.uitm.edu.my/index.php/en/" target="_self"> ATTRIBUTES SELF </a> <br>
+
+
+ 	<!--_parent (main frame stay, content will change)-->
+ 	<a href="https://www.uitm.edu.my/index.php/en/" target="_parent"> ATTRIBUTES PARENT </a> <br>
+
+
+ 	<!--_top (full body of new window)-->
+ 	<a href="https://www.uitm.edu.my/index.php/en/" target="_top"> ATTRIBUTES TOP </a>
+
+
+ 	<h2>IMAGE AS A LINK</h2>
+ 	<a href="html_image.html" target="_blank"> <img src="IMAGES/button.png"></a>
+
+
+ 	<h2>BUTTON AS LINK</h2>
+ 	<button onclick="document.location='html_image.html'">HTML IMAGE</button>
+
+
+ 	<h2>LINK TITLE</h2>
+ 	<a href="https://www.uitm.edu.my/index.php/en/" target="_blank" title="Link to website UiTM"> UITM MALAYSIA </a>
+
+
+ 
+
+ </body>
+ </html>
